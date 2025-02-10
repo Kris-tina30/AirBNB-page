@@ -20,6 +20,7 @@ body {
   border: 1px solid black;
   padding: 12px;
 }
+
 header p {
   border-bottom: 1px solid rgb(141, 132, 132);
   padding-bottom: 3px;
@@ -33,7 +34,6 @@ input {
   border: 1px solid rgb(190, 184, 184);
 }
 h2 {
-  margin-top: 40px;
   margin-bottom: 20px;
 }
 .input-guests {
@@ -58,16 +58,38 @@ main {
 
 h4 {
   color: rgb(207, 83, 104);
+  font-size: 14px;
 }
+.wrap-city p {
+  font-size: 14px;
+}
+
 .img-san-francisco {
   width: 220px;
 }
 .find-place {
   width: 40%;
+  margin-top: 50px;
 }
 .place-info {
   width: 40%;
+  margin-top: 8px;
 }
 .cities {
   width: 20%;
+  margin-top: 8px;
+}
+.user-info {
+  display: flex;
+  gap: 12px;
+}
+
+.wrap-city:not(:last-child) {
+  margin-bottom: 8px;
+}
+.img-user {
+  width: 80px;
+}
+span {
+  font-weight: bold;
 }

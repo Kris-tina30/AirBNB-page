@@ -8,7 +8,6 @@
   </head>
   <body>
     <header>
-      <hr />
       <h1>AirBed & Breakfast - Find a place to stay.</h1>
       <ul>
         <li><a href="#">Sign Up </a></li>
@@ -25,10 +24,10 @@
           type="text"
           placeholder="Where are you going?"
         />
-        <label for="check in">Check in </label>
-        <input type="date" name="check in" id="check in" />
-        <label for="check out">Check out </label>
-        <input type="date" name="check out" id="check out" />
+        <label for="check-in">Check in </label>
+        <input type="date" name="check-in" id="check-in" />
+        <label for="check-out">Check out </label>
+        <input type="date" name="check-out" id="check-out" />
         <label for="guests">Guests </label>
         <input
           type="number"
@@ -38,7 +37,7 @@
           min="1"
           placeholder="1"
         />
-        <div class="place-items">
+        <div class="wrap-city">
           <h4>San Francisco, CA</h4>
           <p>Rooms from $29/night</p>
           <img
@@ -49,39 +48,53 @@
         </div>
       </section>
       <section class="place-info">
-        <div>
+        <div class="wrap-city">
           <img src="./images/Amsterdam.jpeg" alt="Amsterdam" />
         </div>
-        <div>
-          <div>
-            <img src="" alt="user photo" />
+        <div class="user-info">
+          <div class="img-user">
+            <img src="./images/user.jpeg" alt="user photo" />
           </div>
           <div>
-            <a href="#">"Gabs place"</a>
-            <p>- Amsterdam, Netherlands</p>
+            <p>
+              <span><a href="#">"Gabs place"</a>- Amsterdam, Netherlands</span>
+            </p>
             <p>$85/night</p>
             <p>1 Review</p>
           </div>
         </div>
       </section>
       <section class="cities">
-        <div>
+        <div class="wrap-city">
           <h4>Frances & Greg, Los Angeles</h4>
           <p>Recently reviewed</p>
           <img src="./images/los-angeles.jpg.jpeg" alt="Los Angeles" />
         </div>
-        <div>
+        <div class="wrap-city">
           <h4>Washington DC</h4>
           <p>From $10/night</p>
-          <img src="./images/san-francisco.jpeg" alt="San Francisco" />
+          <img src="./images/washington-dc.jpeg" alt="Washington" />
         </div>
-        <div>
+        <div class="wrap-city">
           <h4>Paris, France</h4>
           <p>Rooms from $20/night</p>
-          <img src="./images/san-francisco.jpeg" alt="San Francisco" />
+          <img src="./images/france-paris.jpeg" alt="France" />
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Terms & Privacy</a></li>
+        <li>Biggest Deals: <a href="#">New York</a></li>
+        <li><a href="#">San Francisco</a></li>
+        <li><a href="#">Paris</a></li>
+        <li>Join us on: <a href="#">Twitter</a></li>
+        <li><a href="#">Facebook</a></li>
+      </ul>
+      <p>&copy; AirBed & Breakfast, Inc.</p>
+    </footer>
   </body>
 </html>
