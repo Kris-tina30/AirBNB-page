@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+body {
+  width: auto;
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 12px;
+}
+header p {
+  border-bottom: 1px solid rgb(141, 132, 132);
+  padding-bottom: 3px;
+}
+ul {
+  margin: 20px 0 20px 35px;
+}
+input {
+  display: block;
+  width: 220px;
+  border: 1px solid rgb(190, 184, 184);
+}
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.input-guests {
+  width: 45px;
+  border-radius: 5px;
+  padding: 3px;
+  margin-bottom: 150px;
+}
+input::placeholder {
+  color: black;
+}
+.input-place {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+h4 {
+  color: rgb(207, 83, 104);
+}
+.img-san-francisco {
+  width: 220px;
+}
+.find-place {
+  width: 40%;
+}
+.place-info {
+  width: 40%;
+}
+.cities {
+  width: 20%;
+}
